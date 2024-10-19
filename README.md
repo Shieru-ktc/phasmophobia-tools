@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Phasmophobia Tools
 
-## Getting Started
+このツール集は、Kinetic Games による[Phasmophobia](https://store.steampowered.com/app/739630/Phasmophobia/)をプレイする際に役立つツール集です。
 
-First, run the development server:
+> [!IMPORTANT]  
+> このツール及びその開発にあたって、Kinetic Games は一切の関係がありません。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 背景
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+私は暇なときに Phasmophobia をプレイしており、時折ゴーストに関する知識が必要な高難易度モードにチャレンジしています。  
+ただすべての特徴を網羅するのは難しく、調査中に見落としがちなポイントもいくつかあります。  
+なのでそれらの特徴をまとめ上げ、調査に必要なツールも追加することで、Phasmophobia をプレイする際に使える便利ツール集を作成しようと考えました。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 目的
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+一番の目的は、**私が実際の調査中に使う**ことです。  
+ただ私だけでなく、初心者の方でも高難易度モードをクリアできるようになるサイトを作ることを目的としています。  
+またゴーストの特徴をサイト内で紹介することで、初心者の方にもわかりやすく、特徴と弱点、注意すべき点などの知識をつけてもらうことも目的としています。
 
-## Learn More
+## プロジェクト構成
 
-To learn more about Next.js, take a look at the following resources:
+(N/A)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 技術スタック
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+(N/A)
 
-## Deploy on Vercel
+## ローカルで実行
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+TODO: 後でちゃんと書く
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. リポジトリをクローンします。
+2. プロジェクトのルートディレクトリ内で、`npm i`を実行します。
+3. 同様に、`npm run dev`を実行します。
+4. URL (既定では<http://localhost:3000>)にアクセスします。
